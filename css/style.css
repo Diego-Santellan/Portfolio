@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* COMPONENTES */
+header h1, h2, h3, h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+}
+section h2, footer h2{
+    font-weight: 700 ;
+    font-size: 40px;
+}
+main section#services div h3{
+    font-weight: 500 ;
+}
+header p, nav{
+    font-family: "Kotta One", serif;
+}
+p{
+    font-family: "Bebas Neue", sans-serif;
+}
+ul{
+    align-self: start;
+}
+li{
+    list-style: none;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: start;
+}
+a#floatingButton > img {
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    z-index: 9;
+    bottom: 10px;
+    right: 10px;
+}
+header div:nth-child(2) h1 {
+font-size: 30px;
+}
+main button{
+    background-color: #232428;
+    padding: 5px 5px 5px 15px;
+    border-radius:50px;
+    color: #ededed;
+}
+main button a{
+    text-decoration: none;
+    color: #ededed;
+}
+
+/* HEADER */
+header{
+    background-image: url(../image/header.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header div{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header div:nth-child(1){
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 70%);    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+header div:nth-child(1) img{
+    height: 90%;
+}
+header div:nth-child(2){
+    width: 80%;
+}
+
+/* NAV */
+nav.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #000000;
+}
+nav.navbar div.container-fluid a{
+    color: #d4bea1;
+}
+
+/* MAIN */
+/* AboutMe */
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main section div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* SOBRE MI */
+main section#aboutMe{
+    min-height: 100vh;
+    background-color: #ededed;
+    padding-top: 30px;
+}
+main section#aboutMe div {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main section#aboutMe div img{
+    height: 100vw;
+}
+main section#aboutMe div.pt-3 h3{
+    margin-top: 30px;
+}
+main section#aboutMe div div.aptitudes{
+    display:flex;
+    margin: 20px;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+main section#aboutMe div div.aptitudes div.aptitud{
+    width: 30%;
+}
+main section#aboutMe div div.aptitudes div.aptitud img{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 15px;
+}
+/* MIS SERVICIOS */
+section#services{
+    padding-top: 40px;
+    background-color: #000000;
+}
+section#services h2{
+    color: #847564;
+}
+section#services div h3{
+    color: #d5bd9e;
+}
+section#services div p{
+    color: #ffffff;
+}
+/* PORTFOLIO */
+section#portfolio h2{
+    margin-top: 30px;
+}
+section#portfolio div img{
+    width: 80vw;
+}
+main section#portfolio div div.aptitudes{
+    display:flex;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+main section#portfolio div div.aptitudes div.aptitud{
+    width: 20%;
+}
+main section#portfolio div div.aptitudes div.aptitud img{
+    width: 10vw;
+    height: 10vw;
+}
+main section#portfolio div button{
+    background-color: #847564;
+    padding: 5px 5px 5px 15px;
+    border-radius:50px;
+    border: 0px;
+    color: #ededed;
+    margin-top: 15px;
+}
+main section#portfolio div button a{
+    text-decoration: none;
+    color: #ededed;
+}
+main section#portfolio button.m-5{
+    background-color: #232428;
+    border: 0px;
+    height: 50px;
+    width: 60%;
+    color: #ededed;
+    margin-top: 15px;
+}
+/* RESEÑA */
+section#review{
+    padding: 20px 0px;
+    background-color: #4a4641;
+    color: #ededed;
+}
+/* RESEÑA */
+section#review h2{
+    color: #d4bea1;
+}
+section#review h3{
+    color: #d5bd9e;
+}
+/* CALENDARIO */
+main section#calendly{
+    width: 100vw;
+    background-color: #d5bd9e;
+    
+}
+main section#calendly ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+/* FOOTER */
+footer{ 
+    background-image: url(../image/footer.png);
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;   
+}
+footer div#contact{
+    color:#ededed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 20px 0px 20px 0px;
+}
+footer div h2{
+    margin-top: 20px;
+    text-align: center;
+}
+footer div#contact div.info h3{
+    font-family: "Kotta One", serif;
+}
+footer div#contact div.info h3:nth-child(4){
+    font-weight: 1000;
+    color: #d4bea1;
+}
+footer div#contact div.info h3{
+    margin-left: 25px; 
+}
+footer div#contact div.info ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer form div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 80%;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 45px;
+}
+footer form div input, footer form div textarea{
+    background-color: rgba(237, 237, 237, 0.815);
+    border: none;
+    border-radius: 10px;
+    padding: 2px 2px 2px 8px;
+}
+footer form div button{
+    background-color: #847564;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:768px) {
+    /* ELEMENTOS */
+    p, li{
+        font-size: 20px;
+    }
+    section h2, footer h2{
+        font-size: 45px ;
+    }
+    /* HEADER */
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    header div:nth-child(1) {
+        width: 45%;
+        height: 100vh;
+    } 
+    header div:nth-child(2) {
+        padding-left: 15px;
+        width: 55%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header div:nth-child(2) h1{
+        font-size: 50px;
+    }
+    header div:nth-child(2) h2{
+        font-size: 35px;
+    }
+    /* SOBRE MI */
+    main section#aboutMe div {
+        width: 80vw;
+    }
+    main section#aboutMe div img{
+        height: 50vh;
+    }
+    /* MIS SERVICIOS */
+    main section#services div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;   
+    }
+    main section#services div div{
+        width: 30%;
+        margin-left: 3%;
+    }
+    /* FOOTER */
+    footer form div{
+        width: 60%;
+    }
+    footer div.info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    footer div.info ul{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    /* nav */
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+    /* main */
+    /* sobre mi */
+    main section#aboutMe div div.aptitudes div.aptitud{
+        width: 25%;
+    }
+    main section#aboutMe div div.aptitudes div.aptitud img, main section#portfolio div div.aptitudes div.aptitud img{
+        width: 7vw;
+        height: 7vw;
+    }
+    /* portfolio */
+    section#portfolio div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    section#portfolio div:nth-child(3){
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-around;
+    }
+    section#portfolio div img {
+        width: 40vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    section#portfolio div div{
+        display: flex;
+        flex-direction: column;
+        max-width: 50vw;
+
+    }
+    main section#portfolio button.m-5 {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* reseñas */
+    main section#review div{
+        display: flex;
+        flex-direction: row;
+        align-items: normal;
+    }
+    main section#review div div{
+        flex-direction: column;
+        align-items: center;
+    }
+    main section#review div div p{
+        width: 80%;
+    }
+    /* calendly */
+    main section#calendly{
+        display: flex;
+        flex-direction: row;
+    }
+    main section#calendy div{
+        width: 100%;
+    }
+    /* footer */
+    footer div#contact{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    footer div#contact div{
+        width: 50%;
+    }
+    footer div#contact div form div{
+        width: 70% ;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+
+}
