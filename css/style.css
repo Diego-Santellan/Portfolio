@@ -441,7 +441,29 @@ footer form div button{
     }
 }
 
+@media screen and (min-width:1680px) {
+    p, li, label, footer div input, footer div textarea, section button, footer button, a.navbar-brand{
+        font-size: 30px;
+    }
+    section h3{
+        font-size: 45px;
+    }
+    section h2, footer h2{
+        font-size: 55px ;
+    }
+}
 
-@media screen and (min-width:1200px) {
-
+@media screen and (min-width:2300px) {
+    p, li, label, footer div input, footer div textarea, section button, footer button, a.navbar-brand, section h4 {
+        font-size: 40px;
+    }
+    section h3, footer div#contact div.info h3{
+        font-size: 55px;
+    }
+    section h2, footer h2, header  div.presentation h2{
+        font-size: 75px;
+    }    
+    header div.presentation h1  {
+        font-size: 100px ;
+    }
 }
